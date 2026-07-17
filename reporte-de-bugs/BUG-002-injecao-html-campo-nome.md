@@ -60,4 +60,9 @@ Devido à impossibilidade de ultrapassar a barreira de validação do gateway de
 ---
 
 ## Evidências
-![Evidência do Bug 002](../evidencias/bug002-evidencia.png)
+
+**1. Falha de sanitização no Front-end (Injeção de tags):**
+![Evidência do Bug 002 - Passo 1](../evidencias/bug002-evidencia-1.png)
+
+**2. Comportamento do Back-end / Network (Bloqueio no Gateway de Pagamento 502):**
+![Evidência do Bug 002 - Passo 2](../evidencias/bug002-evidencia-2.png)
