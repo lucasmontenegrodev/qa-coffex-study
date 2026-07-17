@@ -33,8 +33,10 @@ Todos os testes foram realizados utilizando ferramentas de inspeção e dados fi
 * `reporte-de-bugs/`
   * `BUG-001-nome-aceita-numeros.md`
   * `BUG-002-injecao-html-campo-nome.md`
-* `evidencias/` (Pasta para os prints de evidência, se organizados assim)
-  * (Adicione seus prints aqui)
+* `evidencias/`
+  * `bug001-evidencia.jpg`
+  * `bug002-evidencia-1.png`
+  * `bug002-evidencia-2.png`
 
 ---
 

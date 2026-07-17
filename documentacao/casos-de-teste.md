@@ -27,6 +27,8 @@
 | **CT-007** | Inserir E-mail com formato inválido | Usuário na etapa de dados cadastrais | E-mail: "teste@.com" ou "teste.com" | Sistema deve apontar erro de formatação no campo de e-mail | O sistema exibiu a mensagem de erro | Passou | Alta |
 | **CT-008** | Inserir CPF incompleto | Usuário na etapa de dados cadastrais | CPF: 123.456.789-0 | Sistema deve apresentar erro de validação e não liberar o próximo passo | O sistema exibiu a mensagem de erro | Passou | Alta |
 | **CT-009** | Tentar avançar sem preencher campos obrigatórios | Usuário na etapa de dados cadastrais | Todos os campos vazios | Sistema deve destacar os campos obrigatórios em vermelho e impedir o avanço | O sistema exibiu a mensagem de erro | Passou | Alta |
+| **CT-010** | Inserir números e caracteres especiais no campo Nome | Usuário na etapa de dados cadastrais | Nome: "Lucas☕" | Sistema deve exibir erro indicando formato inválido e bloquear a entrada | O sistema aceitou a entrada sem exibir erro | Falhou (BUG-001) | Alta |
+| **CT-011** | Inserir tags HTML (XSS) no campo Nome | Usuário na etapa de dados cadastrais | Nome: "<b>Lucas</b>" | Sistema deve sanitizar o texto ou bloquear o envio (exibindo erro) | O sistema enviou a tag, gerando erro 502 no Gateway | Falhou (BUG-002) | Alta |
 
 ---
 

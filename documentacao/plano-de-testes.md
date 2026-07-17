@@ -29,7 +29,7 @@ Garantir a qualidade e o funcionamento adequado da jornada de assinatura de plan
 **O que NÃO será testado (Out of Scope):**
 * Processamento real do pagamento (integração com gateway de cartão).
 * Área do assinante logado (pois requer uma assinatura ativa paga).
-* Testes de carga, stress, performance ou vulnerabilidade de segurança.
+* Testes de carga, stress, performance.
 
 ---
 
